@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Di dalam file CSS Anda */
+
+/* Di dalam file CSS Anda */
+
+.nav-item {
+    @apply block rounded py-2 pl-3 pr-4 text-gray-700 dark:text-gray-400 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-primary-700 lg:dark:hover:bg-transparent lg:dark:hover:text-white;
+    /* Tambahkan kelas utility lain yang diinginkan */
+}
+
+.nav-item-active {
+    @apply bg-primary-700 text-white dark:text-white lg:bg-transparent lg:text-primary-700;
+    /* Tambahkan kelas utility lain untuk state 'active' jika diperlukan */
+}
+
+.peer:checked ~ label .fa-solid {
+    @apply text-yellow-400;
+}
+
+.input_emot {
+    @apply hidden h-4 w-4 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600;
+}
+
+.label_emot {
+    @apply ms-2 flex flex-col items-center justify-center gap-3 text-sm font-medium text-gray-900 dark:text-gray-300;
+}
