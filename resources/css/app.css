@@ -16,8 +16,20 @@
     /* Tambahkan kelas utility lain untuk state 'active' jika diperlukan */
 }
 
-.peer:checked ~ label .fa-solid {
+.peer1:checked ~ label .fa-solid {
+    @apply text-red-600;
+}
+.peer2:checked ~ label .fa-solid {
+    @apply text-red-500;
+}
+.peer3:checked ~ label .fa-solid {
     @apply text-yellow-400;
+}
+.peer4:checked ~ label .fa-solid {
+    @apply text-green-400;
+}
+.peer5:checked ~ label .fa-solid {
+    @apply text-green-600;
 }
 
 .input_emot {
